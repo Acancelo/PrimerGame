@@ -152,6 +152,7 @@ position = Vector2(0, 18)
 shape = SubResource("WorldBoundaryShape2D_43hs5")
 
 [node name="Player" parent="." instance=ExtResource("1_hbafv")]
+position = Vector2(0, -21)
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_pk00j")
