@@ -187,6 +187,12 @@ position = Vector2(0, 18)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
 shape = SubResource("WorldBoundaryShape2D_43hs5")
 
+<<<<<<< HEAD
+=======
+[node name="Player" parent="." instance=ExtResource("1_hbafv")]
+position = Vector2(0, -21)
+
+>>>>>>> a9ade1a10b1a068499078ebe0d7dd253883fe88d
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_pk00j")
 format = 2
